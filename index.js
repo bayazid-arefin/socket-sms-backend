@@ -62,7 +62,7 @@ server.listen("5001", ()=>{
 })
 
 app.get('/', (req, res) => {
-    res.send("Hello")
+    res.send("Hello Again")
 })
   
 mongoose.connect(`mongodb+srv://${process.env.user}:${process.env.pass}@arefins.mi8bj9m.mongodb.net/?retryWrites=true&w=majority&appName=arefins`)
